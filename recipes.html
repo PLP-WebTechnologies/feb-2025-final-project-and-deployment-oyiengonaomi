@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Global Flavors</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Global Flavors</h1>
+            <button class="hamburger" id="hamburger">☰</button>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html" class="active">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="page-title-container">
+            <h1>Our Global Recipes</h1>
+            <p>Discover authentic dishes from around the world, with step-by-step instructions and cultural insights.</p>
+        </div>
+    </section>
+
+    <!-- Recipe Filters -->
+    <section class="recipe-filters-section">
+        <div class="container">
+            <div class="recipe-filters">
+                <button class="filter-button active" data-filter="all">All Cuisines</button>
+                <button class="filter-button" data-filter="italian">Italian</button>
+                <button class="filter-button" data-filter="japanese">Japanese</button>
+                <button class="filter-button" data-filter="mexican">Mexican</button>
+                <button class="filter-button" data-filter="indian">Indian</button>
+                <button class="filter-button" data-filter="chinese">Chinese</button>
+                <button class="filter-button" data-filter="french">French</button>
+                <button class="filter-button" data-filter="thai">Thai</button>
+                <button class="filter-button" data-filter="greek">Greek</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="recipes-section">
+        <div class="container">
+            <div class="recipes-grid">
+                <!-- Italian Recipes -->
+                <div class="recipe-card" data-cuisine="italian">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Italian <span class="recipe-difficulty easy">Easy</span></div>
+                        <h3 class="recipe-title">Authentic Margherita Pizza</h3>
+                        <span class="recipe-time">Prep: 30 mins | Cook: 15 mins</span>
+                        <p class="recipe-desc">A classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil on a perfect thin crust.</p>
+                        <a href="recipes/italian-pizza.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="recipe-card" data-cuisine="italian">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Italian <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Classic Lasagna Bolognese</h3>
+                        <span class="recipe-time">Prep: 45 mins | Cook: 1 hr 30 mins</span>
+                        <p class="recipe-desc">Layers of pasta, rich meat sauce, bechamel, and cheese, baked to perfection.</p>
+                        <a href="recipes/italian-lasagna.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Japanese Recipes -->
+                <div class="recipe-card" data-cuisine="japanese">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Japanese <span class="recipe-difficulty hard">Hard</span></div>
+                        <h3 class="recipe-title">Homemade Tonkotsu Ramen</h3>
+                        <span class="recipe-time">Prep: 1 hr | Cook: 12 hrs</span>
+                        <p class="recipe-desc">Rich pork bone broth with fresh noodles, chashu pork, soft-boiled eggs, and flavorful toppings.</p>
+                        <a href="recipes/japanese-ramen.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="recipe-card" data-cuisine="japanese">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Japanese <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Authentic Sushi Rolls</h3>
+                        <span class="recipe-time">Prep: 45 mins | Cook: 30 mins</span>
+                        <p class="recipe-desc">Learn to make perfect sushi rice and create beautiful maki rolls with fresh fish and vegetables.</p>
+                        <a href="recipes/japanese-sushi.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Mexican Recipes -->
+                <div class="recipe-card" data-cuisine="mexican">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Mexican <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Street Tacos Al Pastor</h3>
+                        <span class="recipe-time">Prep: 3 hrs | Cook: 45 mins</span>
+                        <p class="recipe-desc">Marinated spit-grilled pork with pineapple, onions, cilantro, and homemade corn tortillas.</p>
+                        <a href="recipes/mexican-tacos.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="recipe-card" data-cuisine="mexican">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Mexican <span class="recipe-difficulty easy">Easy</span></div>
+                        <h3 class="recipe-title">Traditional Guacamole</h3>
+                        <span class="recipe-time">Prep: 15 mins</span>
+                        <p class="recipe-desc">Creamy avocados mashed with lime, cilantro, onion, and tomato for the perfect dip or topping.</p>
+                        <a href="recipes/mexican-guacamole.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <!-- Indian Recipes -->
+                <div class="recipe-card" data-cuisine="indian">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Indian <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Butter Chicken (Murgh Makhani)</h3>
+                        <span class="recipe-time">Prep: 30 mins | Cook: 45 mins</span>
+                        <p class="recipe-desc">Tender chicken in a rich, creamy tomato sauce with aromatic spices and butter.</p>
+                        <a href="recipes/indian-butter-chicken.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <!-- Chinese Recipes -->
+                <div class="recipe-card" data-cuisine="chinese">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Chinese <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Dim Sum Dumplings</h3>
+                        <span class="recipe-time">Prep: 1 hr | Cook: 20 mins</span>
+                        <p class="recipe-desc">Delicate steamed dumplings filled with pork, shrimp, and fragrant seasonings.</p>
+                        <a href="recipes/chinese-dumplings.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <!-- French Recipes -->
+                <div class="recipe-card" data-cuisine="french">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">French <span class="recipe-difficulty hard">Hard</span></div>
+                        <h3 class="recipe-title">Classic Beef Bourguignon</h3>
+                        <span class="recipe-time">Prep: 45 mins | Cook: 3 hrs</span>
+                        <p class="recipe-desc">Slow-cooked beef stew with red wine, mushrooms, and pearl onions - a French comfort food classic.</p>
+                        <a href="recipes/french-beef-bourguignon.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <!-- Thai Recipes -->
+                <div class="recipe-card" data-cuisine="thai">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Thai <span class="recipe-difficulty easy">Easy</span></div>
+                        <h3 class="recipe-title">Pad Thai</h3>
+                        <span class="recipe-time">Prep: 20 mins | Cook: 15 mins</span>
+                        <p class="recipe-desc">Stir-fried rice noodles with eggs, tofu, bean sprouts, peanuts, and tamarind sauce.</p>
+                        <a href="recipes/thai-pad-thai.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                
+                <!-- Greek Recipes -->
+                <div class="recipe-card" data-cuisine="greek">
+                    <div class="recipe-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                    <div class="recipe-content">
+                        <div class="recipe-cuisine">Greek <span class="recipe-difficulty medium">Medium</span></div>
+                        <h3 class="recipe-title">Traditional Moussaka</h3>
+                        <span class="recipe-time">Prep: 45 mins | Cook: 1 hr</span>
+                        <p class="recipe-desc">Layers of eggplant, potatoes, spiced meat, and creamy bechamel sauce baked until golden.</p>
+                        <a href="recipes/greek-moussaka.html" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Join Our Culinary Journey</h2>
+            <p>Subscribe to our newsletter for new recipes, cooking tips, and exclusive content delivered straight to your inbox.</p>
+            <form class="newsletter-form" id="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Global Flavors</h3>
+                <p>Exploring the world's diverse cuisines, one recipe at a time.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">FB</a>
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">TW</a>
+                    <a href="#" class="social-link">PT</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Explore</h3>
+                <ul class="footer-links">
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="cuisines.html">Cuisines</a></li>
+                    <li><a href="techniques.html">Techniques</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Information</h3>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Global Flavors. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="jsscript.js"></script>
+    <script src="recipes.js"></script>
+</body>
+</html>
