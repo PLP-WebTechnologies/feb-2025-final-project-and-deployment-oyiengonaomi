@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Global Flavors</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Global Flavors</h1>
+            <button class="hamburger" id="hamburger">☰</button>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="page-title-container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for questions, collaborations, or feedback.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <p>hello@globalflavors.com</p>
+                            <p>For business inquiries: partnerships@globalflavors.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567</p>
+                            <p>Monday-Friday: 9AM - 5PM (EST)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Visit Us</h3>
+                            <p>123 Global Kitchen Street</p>
+                            <p>Foodie District, Cuisine City, 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-content">
+                            <h3>Follow Us</h3>
+                            <div class="social-links contact-social">
+                                <a href="#" class="social-link">FB</a>
+                                <a href="#" class="social-link">IG</a>
+                                <a href="#" class="social-link">TW</a>
+                                <a href="#" class="social-link">PT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h2>Send Us A Message</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="recipes">Recipe Question</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="collaboration">Collaboration Proposal</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter</label>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I submit my own recipe to Global Flavors?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We welcome recipe submissions from our community. Please use our recipe submission form or email your recipe with high-quality photos to recipes@globalflavors.com. Our culinary team will review and may feature it on our site with full credit to you.</p>
+                    </div>
+                    <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I suggest a cuisine or food culture to be featured?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're always looking to expand our coverage of global cuisines. If you'd like to suggest a cuisine or food culture, please email us at content@globalflavors.com with your suggestion and any specific dishes you'd like to see featured.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer cooking classes or workshops?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we host virtual cooking classes every month and in-person workshops in select cities quarterly. Check our Events page for upcoming classes or subscribe to our newsletter to be notified about new events.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>I can't find a specific ingredient mentioned in your recipes. What should I do?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Many of our recipes include ingredient substitutions in the notes section. If you can't find a recommendation there, please contact us and our culinary team will suggest suitable alternatives that maintain the authentic flavor profile of the dish.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you have dietary-specific recipes (vegetarian, gluten-free, etc.)?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can filter our recipe collection by dietary preferences using the tags on our Recipes page. We're constantly adding new recipes to accommodate various dietary needs while preserving authentic global flavors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Us</h2>
+            </div>
+            <div class="map-container">
+                <!-- Map placeholder - would be replaced with actual map embed -->
+                <div class="map-placeholder">
+                    <p>Interactive Map Would Be Displayed Here</p>
+                    <p>123 Global Kitchen Street, Foodie District, Cuisine City, 10001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated with Global Flavors</h2>
+                    <p>Subscribe to our newsletter for new recipes, cooking tips, and exclusive content delivered straight to your inbox.</p>
+                </div>
+                <div class="newsletter-form">
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-logo">Global Flavors</h3>
+                    <p>Bringing the world's diverse culinary traditions to your kitchen with authentic recipes, cooking techniques, and food stories.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">TW</a>
+                        <a href="#" class="social-link">PT</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Food Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="cuisines.html">Cuisines</a></li>
+                        <li><a href="ingredients.html">Ingredients Guide</a></li>
+                        <li><a href="techniques.html">Cooking Techniques</a></li>
+                        <li><a href="events.html">Cooking Events</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Global Flavors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="jsscript.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
